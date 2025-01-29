@@ -1,0 +1,148 @@
+.AModalPantalla{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+    .AModalContenedor{
+        background: white;
+        width: 510px;
+        height: 330px;
+        padding: 20px;
+    }
+
+    .agregarOpen{
+        display: flex;
+    }
+
+.MModalPantalla{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+    .MModalContenedor{
+        background: white;
+        width: 510px;
+        height: 330px;
+        padding: 20px;
+    }
+
+    .modificarOpen{
+        display: flex;
+    }
+
+
+.EModalPantalla{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+    .EModalContenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        width: 410px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    .eliminarOpen{
+        display: flex;
+    }
+
+        .tituloAModal{
+            font-weight: bold;
+        }
+
+        form{
+            margin: 20px 0 50px 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            /* align-content: flex-start; */
+            /* border: solid; */
+            height: 240px;
+        }
+
+
+            label{
+                width: 230px;
+                height: 35px;
+                
+            }
+
+            input{
+                width: 230px;
+                height: 35px;
+                border: solid;
+                padding-left: 10px;
+                /* margin-top: 20px; */
+            }
+
+    
+            .formBotones{
+                /* border: solid; */
+                width: 100%;
+                display: flex;
+                justify-content: end;
+            }
+
+                .cancelarAgregarBoton{
+                    background: #eb1b1bcb ;
+                    margin-right: 5px;
+                    width: 55px;
+                    height: 30px;
+                    color: white;
+                    border: white 1px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                    .cancelarAgregarBoton:hover{
+                        background: #ee3030cb ;
+                    }
+
+
+                .confirmarAgregarBoton{
+                    background: #0fca7ccb;
+                    margin-right: 5px;
+                    width: 55px;
+                    height: 30px;
+                    color: white;
+                    border: white 1px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                    .confirmarAgregarBoton:hover{
+                        background: #0fca7ccb;
+                    }
